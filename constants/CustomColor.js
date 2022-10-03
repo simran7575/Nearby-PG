@@ -1,0 +1,15 @@
+export const Colors = {
+  primaryblue: "#5763e8",
+  lightblue: "#019ef0",
+  gray2: "#CECECE",
+  gray4: "#858282",
+  gray5: "#757474",
+  appBackground: "#f7f7f7",
+  black: "#2f2d2d",
+  white: "#ffffff",
+  gray1: "#ebe8e8",
+  gray3: "#AAAAAA",
+  lightBlack: "#4d4c4c",
+  yellow: "#fbc406",
+  red: "#FF0000",
+};
