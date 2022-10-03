@@ -30,31 +30,15 @@ const AddPgForm = ({ addNewPg }) => {
     switch (inputType) {
       case "name":
         setName(enteredValue);
-        const isNameValid = validateNames(enteredValue);
-        setIsProductvalid({
-          name: isNameValid,
-        });
         break;
       case "price":
         setPrice(enteredValue);
-        const isPriceValid = validatePrice(enteredValue);
-        setIsProductvalid({
-          price: isPriceValid,
-        });
         break;
       case "description":
         setDescription(enteredValue);
-        const isDescriptionValid = validateNames(enteredValue);
-        setIsProductvalid({
-          description: isDescriptionValid,
-        });
         break;
       case "location":
         setLocation(enteredValue);
-        const isLocationValid = validateNames(location);
-        setIsProductvalid({
-          location: isLocationValid,
-        });
         break;
       case "gender":
         setGender(enteredValue);
